@@ -149,10 +149,10 @@ const Index = () => {
           <div
             className={`text-center mb-20 transition-all duration-1000 ${visibleSections["features"] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
           >
-            <span className="text-xs font-medium tracking-widest text-accent/60 uppercase">Что мы предлагаем</span>
+            <span className="text-xs font-medium tracking-widest text-accent/60 uppercase">О проекте</span>
             <h2 className="text-5xl lg:text-6xl font-display font-black tracking-tighter mt-4 mb-6">
               <span className="bg-gradient-to-r from-white via-white to-accent/40 bg-clip-text text-transparent">
-                Всё в одном месте
+                NEXT RP — это мы
               </span>
             </h2>
           </div>
@@ -161,33 +161,33 @@ const Index = () => {
             {[
               {
                 icon: "Palette",
-                title: "Наше творчество",
-                desc: "Галерея работ, кейсы и проекты — всё, чем мы гордимся и что создали для клиентов.",
+                title: "Наши работы",
+                desc: "Смотри, что мы создали — контент, проекты и творчество команды NEXT RP.",
               },
               {
-                icon: "Instagram",
-                title: "Мы в соцсетях",
-                desc: "Следите за нашими обновлениями, новыми проектами и закулисьем в Instagram, VK и Telegram.",
+                icon: "Users",
+                title: "Сообщество",
+                desc: "Следи за нами ВКонтакте, Telegram и YouTube — будь в курсе всех событий сервера.",
               },
               {
                 icon: "Bug",
-                title: "Репортинг багов",
-                desc: "Заметили что-то не то? Сообщите нам — мы разберёмся и исправим в кратчайшие сроки.",
+                title: "Репорт бага",
+                desc: "Нашёл проблему на сервере или сайте? Сообщи нам — исправим в кратчайшие сроки.",
               },
               {
                 icon: "MessageCircle",
                 title: "Обратная связь",
-                desc: "Ваше мнение важно для нас. Оставляйте отзывы и предложения — мы всегда на связи.",
+                desc: "Твоё мнение важно. Пиши идеи и предложения — мы читаем каждое сообщение.",
               },
               {
                 icon: "Star",
-                title: "Отзывы клиентов",
-                desc: "Реальные истории реальных людей о нашей работе. Честно и без прикрас.",
+                title: "Отзывы игроков",
+                desc: "Реальные отзывы реальных игроков о сервере NEXT RP. Честно и без прикрас.",
               },
               {
                 icon: "Globe",
-                title: "Актуальные новости",
-                desc: "Новые услуги, акции и события — узнавайте первыми о том, что происходит в компании.",
+                title: "Новости сервера",
+                desc: "Обновления, ивенты и анонсы — узнавай о жизни NEXT RP первым.",
               },
             ].map((item, i) => {
               const isVisible = visibleSections["features"];
