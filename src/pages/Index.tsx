@@ -280,12 +280,12 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                icon: "Instagram",
-                name: "Instagram",
-                handle: "@yourhandle",
+                icon: "Users",
+                name: "ВКонтакте",
+                handle: "@yourgroup",
                 desc: "Работы, закулисье и вдохновение",
-                color: "from-pink-500/20 to-purple-500/20",
-                border: "border-pink-500/20 hover:border-pink-500/40",
+                color: "from-blue-600/20 to-blue-400/20",
+                border: "border-blue-600/20 hover:border-blue-600/40",
                 highlight: false,
               },
               {
