@@ -282,7 +282,7 @@ const Index = () => {
               {
                 icon: "Users",
                 name: "ВКонтакте",
-                handle: "@yourgroup",
+                handle: "NEXT RP",
                 desc: "Работы, закулисье и вдохновение",
                 color: "from-blue-600/20 to-blue-400/20",
                 border: "border-blue-600/20 hover:border-blue-600/40",
@@ -292,7 +292,7 @@ const Index = () => {
               {
                 icon: "MessageCircle",
                 name: "Telegram",
-                handle: "@nextrpnews",
+                handle: "NEXT RP",
                 desc: "Новости, акции и анонсы первыми",
                 color: "from-blue-500/20 to-cyan-500/20",
                 border: "border-blue-500/20 hover:border-blue-500/40",
@@ -302,7 +302,7 @@ const Index = () => {
               {
                 icon: "Youtube",
                 name: "YouTube",
-                handle: "@yourchannel",
+                handle: "NEXT RP",
                 desc: "Видеоработы и туториалы",
                 color: "from-red-500/20 to-orange-500/20",
                 border: "border-red-500/20 hover:border-red-500/40",
