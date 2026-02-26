@@ -287,7 +287,7 @@ const Index = () => {
                 color: "from-blue-600/20 to-blue-400/20",
                 border: "border-blue-600/20 hover:border-blue-600/40",
                 highlight: false,
-                url: "",
+                url: "https://vk.com/nextmta",
               },
               {
                 icon: "MessageCircle",
@@ -307,7 +307,7 @@ const Index = () => {
                 color: "from-red-500/20 to-orange-500/20",
                 border: "border-red-500/20 hover:border-red-500/40",
                 highlight: false,
-                url: "",
+                url: "https://www.youtube.com/@NEXTRP",
               },
             ].map((social, i) => {
               const isVisible = visibleSections["portfolio"];
