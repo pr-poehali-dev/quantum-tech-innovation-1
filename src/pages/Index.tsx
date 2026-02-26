@@ -84,19 +84,19 @@ const Index = () => {
             >
               <div className="mb-8 inline-block">
                 <span className="text-xs font-medium tracking-widest text-accent/80 uppercase">
-                  Клиентский портал
+                  Официальный портал NEXT RP
                 </span>
               </div>
               <h1 className="text-6xl lg:text-7xl font-display font-black leading-tight mb-8 tracking-tighter">
                 <span className="bg-gradient-to-br from-white via-white to-accent/40 bg-clip-text text-transparent">
-                  Творчество.
+                  Добро пожаловать
                 </span>
                 <br />
-                <span className="text-accent">Связь. Качество.</span>
+                <span className="text-accent">в NEXT RP.</span>
               </h1>
               <p className="text-xl text-white/80 leading-relaxed mb-10 max-w-xl font-light">
-                Здесь вы найдёте наши работы, узнаете о нас в соцсетях и сможете сообщить о любой проблеме.
-                Мы работаем для вас.
+                Следите за нашим творчеством, подписывайтесь на соцсети и помогайте нам становиться лучше —
+                сообщайте о багах прямо здесь.
               </p>
               <div className="flex gap-4 mb-12 flex-col sm:flex-row">
                 <button
