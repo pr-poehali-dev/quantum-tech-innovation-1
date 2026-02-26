@@ -287,15 +287,17 @@ const Index = () => {
                 color: "from-blue-600/20 to-blue-400/20",
                 border: "border-blue-600/20 hover:border-blue-600/40",
                 highlight: false,
+                url: "",
               },
               {
                 icon: "MessageCircle",
                 name: "Telegram",
-                handle: "@yourchannel",
+                handle: "@nextrpnews",
                 desc: "Новости, акции и анонсы первыми",
                 color: "from-blue-500/20 to-cyan-500/20",
                 border: "border-blue-500/20 hover:border-blue-500/40",
                 highlight: true,
+                url: "https://t.me/nextrpnews",
               },
               {
                 icon: "Youtube",
@@ -305,6 +307,7 @@ const Index = () => {
                 color: "from-red-500/20 to-orange-500/20",
                 border: "border-red-500/20 hover:border-red-500/40",
                 highlight: false,
+                url: "",
               },
             ].map((social, i) => {
               const isVisible = visibleSections["portfolio"];
@@ -330,10 +333,15 @@ const Index = () => {
                       <p className="text-accent text-sm mb-4">{social.handle}</p>
                       <p className="text-foreground/70 leading-relaxed">{social.desc}</p>
                     </div>
-                    <button className="mt-8 w-full px-6 py-3 rounded-xl border border-white/20 hover:bg-white/10 transition-all flex items-center justify-center gap-2 text-sm font-medium">
+                    <a
+                      href={social.url || "#"}
+                      target={social.url ? "_blank" : undefined}
+                      rel="noopener noreferrer"
+                      className="mt-8 w-full px-6 py-3 rounded-xl border border-white/20 hover:bg-white/10 transition-all flex items-center justify-center gap-2 text-sm font-medium"
+                    >
                       Подписаться
                       <ExternalLink className="w-4 h-4" />
-                    </button>
+                    </a>
                   </div>
                 </div>
               );
